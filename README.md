@@ -52,6 +52,9 @@
 |:-:|---|---|---|
 | 1 | **EY Techathon 4.0** — Round 1 Participation | Ernst & Young (EY) | 2024–2025 |
 | 2 | **TCS TechBytes** — Campus Event | Tata Consultancy Services | 2024–2025 |
+| 3 | **AIGINITION Hackathon** — Participation | AIGINITION | Nov 2025 |
+| 4 | **Sanchalana 2023** — Aircrash & Ludo Events | SVIT (State Level Cultural Fest) | Jun 2023 |
+| 5 | **Vignanothsav 2023** — Participation | SVIT | 2023 |
 
 <details>
 <summary>📄 View Certificates</summary>
@@ -60,6 +63,20 @@
 | EY Techathon 4.0 | TCS TechBytes |
 |:---:|:---:|
 | <img src="EY Techathon 4.0 Participation certification/Ey_Techathon_4.0_Round_1_Participation_certification.jpg" width="400"/> | <img src="TCS_TechBytes Participation certification/TCS_TechBytes@Sit_Campus.jpg" width="400"/> |
+
+| AIGINITION Hackathon |
+|:---:|
+| <img src="AIGINITION Hackathon Participation Certification/AIGINITION_Hackathon_Participation_Certification_1st-NOV-2025.jpg" width="400"/> |
+
+**Sanchalana 2023 — Cultural Fest Events**
+
+| Aircrash Event | Ludo Event |
+|:---:|:---:|
+| <img src="Sanchalana 2023 Certificate of Participation/Aircrash_event_Sanchalana_2023_Certificate_of_Participation.jpg" width="400"/> | <img src="Sanchalana 2023 Certificate of Participation/Ludo_event_Sanchalana_2023_Certificate_of_Participation.jpg" width="400"/> |
+
+| Vignanothsav 2023 |
+|:---:|
+| <img src="Vignanothsav 2023 Certificate of Participation/Vignanothsav_2023_Certificate of Participation.jpg" width="400"/> |
 
 </details>
 
@@ -71,6 +88,7 @@
 |:-:|---|---|---|
 | 1 | **Cleanliness Drive** — Participation | Rotaract / College | 2024 |
 | 2 | **Polio Awareness Campaign** — Participation | Rotaract Club | Oct 2024 |
+| 3 | **INOCON 2023** — IEEE International Conference Volunteer | IEEE Bangalore Section, SVIT | Mar 2023 |
 
 <details>
 <summary>📄 View Certificates</summary>
@@ -78,7 +96,11 @@
 
 | Cleanliness Drive | Polio Awareness |
 |:---:|:---:|
-| <img src="Cleaness drive Cetification/IMG_4047.jpg" width="400"/> | <img src="Polio Awareness  Participation certification/Polio_Awareness_( 24-oct-2024 ).jpg" width="400"/> |
+| <img src="Cleaness drive Cetification/IMG_4047.jpg" width="400"/> | <img src="Polio Awareness Participation certification/Polio_Awareness_( 24-oct-2024 ).jpg" width="400"/> |
+
+| INOCON 2023 — IEEE Volunteer (Certificate of Appreciation) |
+|:---:|
+| <img src="2nd International Conference on Innovation in Technology Volunteer Certificate of Appreciation/2nd_Interna_Conf_on_Innovation_in_Technology_Volunteer_(INOCON 2023) Certificate_of_Appreciat.jpg" width="400"/> |
 
 </details>
 
@@ -90,6 +112,7 @@
 |:-:|---|---|---|
 | 1 | **Sanchalana Coordination** — College Event | College / University | May 2024 |
 | 2 | **Areas of Focus** — Rotary Learning | Rotary International | Dec 2024 |
+| 3 | **SPARK** — Rotaract Leadership Training (Certificate of Graduation) | Rotaract District 3192 | Jun 2024 |
 
 <details>
 <summary>📄 View Certificates</summary>
@@ -98,6 +121,10 @@
 | Sanchalana Coordination | Rotary — Areas of Focus |
 |:---:|:---:|
 | <img src="College Coordination Cetification/Sanchalana Coordination(10&11-may-2024).jpg" width="400"/> | <img src="Rotary learning certificate/Areas of Focus ( 30-dec-2024 ).png" width="400"/> |
+
+| SPARK — Rotaract Leadership Training (Graduation) |
+|:---:|
+| <img src="SPARK - Rotaract Leadership Training Certificate of Graduation/SPARK -Rotaract_Leadership_Training_Certificate_of_Graduation_2024_Issuer_RI_Disrtict-3192.jpg" width="400"/> |
 
 </details>
 
@@ -120,10 +147,10 @@
 | Category | Count |
 |---|:---:|
 | ☁️ Technical / Course Completion | 2 |
-| 🏆 Hackathons & Events | 2 |
-| 🤝 Community Service & Volunteering | 2 |
-| 🎓 Leadership & Academic | 2 |
-| **Total** | **8** |
+| 🏆 Hackathons & Events | 5 |
+| 🤝 Community Service & Volunteering | 3 |
+| 🎓 Leadership & Academic | 3 |
+| **Total** | **13** |
 
 ---
 
