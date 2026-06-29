@@ -89,6 +89,11 @@
 | 1 | **Cleanliness Drive** — Participation | Rotaract / College | 2024 |
 | 2 | **Polio Awareness Campaign** — Participation | Rotaract Club | Oct 2024 |
 | 3 | **INOCON 2023** — IEEE International Conference Volunteer | IEEE Bangalore Section, SVIT | Mar 2023 |
+| 4 | **Cultural Activities Volunteering** | Govt High School, Rajanukunte | 2023–2024 |
+| 5 | **Belaku Volunteering** | Rotaract Club of SVIT | 2022–2023 |
+| 6 | **Krishiyalli Kushi Volunteering** | Rotaract Club of SVIT | 2024–2025 |
+| 7 | **Seal & Save Food Preservation Drive** | Rotaract Club of SVIT | 2024–2025 |
+| 8 | **Water Conservation Volunteering** | Rotaract Club of SVIT | 2025–2026 |
 
 <details>
 <summary>📄 View Certificates</summary>
@@ -101,6 +106,16 @@
 | INOCON 2023 — IEEE Volunteer (Certificate of Appreciation) |
 |:---:|
 | <img src="2nd International Conference on Innovation in Technology Volunteer Certificate of Appreciation/2nd_Interna_Conf_on_Innovation_in_Technology_Volunteer_(INOCON 2023) Certificate_of_Appreciat.jpg" width="400"/> |
+
+**VTU Activity Points / Volunteering**
+
+| Cultural Activities (2023-24) | Belaku (2022-23) | Krishiyalli Kushi (2024-25) |
+|:---:|:---:|:---:|
+| <img src="Cultural_Activities_Volunteering_Certification_Participation_2023-24/Cultural_Activities_Volunteering_Certification_Participation_2023-24.png" width="280"/> | <img src="Belaku_Volunteering_Certification_Participation_2022-23/Belaku_Volunteering_Certification_Participation_2022-23.png" width="280"/> | <img src="Krishiyalli_Kushi_Volunteering_Certification_Participation_2024-25/Krishiyalli_Kushi_Volunteering_Certification_Participation_2024-25.png" width="280"/> |
+
+| Seal & Save Drive (2024-25) | Water Conservation (2025-26) |
+|:---:|:---:|
+| <img src="Seal_&_Save_Drive_Certification_Participation_2024-25/Seal_&_Save_Drive_Certification_Participation_2024-25.png" width="400"/> | <img src="Water_Conservation_Volunteering_Certification_Participation_2025-26/Water_Conservation_Volunteering_Certification_Participation_2025-26.png" width="400"/> |
 
 </details>
 
@@ -148,9 +163,9 @@
 |---|:---:|
 | ☁️ Technical / Course Completion | 2 |
 | 🏆 Hackathons & Events | 5 |
-| 🤝 Community Service & Volunteering | 3 |
+| 🤝 Community Service & Volunteering | 8 |
 | 🎓 Leadership & Academic | 3 |
-| **Total** | **13** |
+| **Total** | **18** |
 
 ---
 
