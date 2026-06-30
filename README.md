@@ -115,9 +115,8 @@
 | 3 | **Krishiyalli Kushi Volunteering** | Rotaract Club of SVIT | 2024–2025 |
 | 4 | **Polio Awareness Campaign** — Participation | Rotaract Club | Oct 2024 |
 | 5 | **Cleanliness Drive** — Participation | Rotaract / College | 2024 |
-| 6 | **Cultural Activities Volunteering** | Govt High School, Rajanukunte | 2023–2024 |
+| 6 | **Belaku Volunteering (Cultural Activities)** | Rotaract Club / Govt High School | 2022–2024 |
 | 7 | **INOCON 2023** — IEEE International Conference Volunteer | IEEE Bangalore Section, SVIT | Mar 2023 |
-| 8 | **Belaku Volunteering** | Rotaract Club of SVIT | 2022–2023 |
 
 <details>
 <summary>📄 View Certificates</summary>
@@ -133,7 +132,9 @@
 |:---:|:---:|
 | <img src="assets/community_service/2024_Polio_Awareness___24-oct-2024___Certification_Learning.jpg" width="400"/> | <img src="assets/community_service/2023-24_Beach_Clean_Drive_Certification_Participation_2023-24.jpg" width="400"/> |
 
-| Cultural Activities (2023-24) | Belaku (2022-23) |
+**Belaku Volunteering (Cultural Activities)**
+
+| Govt High School Recognition | Rotaract Club Certificate |
 |:---:|:---:|
 | <img src="assets/community_service/2023-24_Cultural_Activities_Volunteering_Certification_Participation_2023-24.png" width="400"/> | <img src="assets/community_service/2022-23_Belaku_Volunteering_Certification_Participation_2022-23.png" width="400"/> |
 
@@ -185,9 +186,9 @@
 | ☁️ Technical / Course Completion | 2 |
 | 🏆 Hackathons and technical events | 4 |
 | 🎓 Leadership & Academic | 3 |
-| 🤝 Community Service & Volunteering | 8 |
+| 🤝 Community Service & Volunteering | 7 |
 | 🎭 Non-Technical Events | 2 |
-| **Total** | **19** |
+| **Total** | **18** |
 
 ---
 
