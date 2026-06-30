@@ -147,12 +147,8 @@
 
 | SPARK — Rotaract Leadership Training (Graduation) | Receiving SPARK Leadership Award |
 |:---:|:---:|
-| <img src="assets/leadership/2024_SPARK_-Rotaract_Leadership_Training_2024_Issuer_RI_Disrtict-3192_Certification_Completion.jpg" width="400"/> | <video src="assets/leadership/2024_Receiving_SPARK_Leadership_Award.mp4" width="400" controls></video> |
-
-**SPARK Event: Fellowship & Team (2024)**
-
-| With RSVIT Team Members | With Fellow President |
-|:---:|:---:|
+| <img src="assets/leadership/2024_SPARK_-Rotaract_Leadership_Training_2024_Issuer_RI_Disrtict-3192_Certification_Completion.jpg" width="400"/> | <video src="https://raw.githubusercontent.com/thrinadh2164/My_Certifications/main/assets/leadership/2024_Receiving_SPARK_Leadership_Award.mp4" width="400" controls></video> |
+| **With RSVIT Team Members** | **With Fellow President** |
 | <img src="assets/leadership/2024-25_With_RSVIT_Team_Members.jpg" width="400"/> | <img src="assets/leadership/2024-25_With_Fellow_President.jpg" width="400"/> |
 
 </details>
