@@ -39,16 +39,16 @@
 
 | # | Certification | Issued By | Date |
 |:-:|---|---|---|
-| 1 | **Google Cloud Career Launchpad** — Generative AI Leader Track | Google Cloud | 2025 |
-| 2 | **Getting Started with Data** | IBM SkillsBuild | Dec 2025 |
+| 1 | **Getting Started with Data** | IBM SkillsBuild | Dec 2025 |
+| 2 | **Google Cloud Career Launchpad** — Generative AI Leader Track | Google Cloud | 2025 |
 
 <details>
 <summary>📄 View Certificates</summary>
 <br>
 
-| Google Cloud — Gen AI Leader Track | IBM SkillsBuild — Data |
+| IBM SkillsBuild — Data | Google Cloud — Gen AI Leader Track |
 |:---:|:---:|
-| <img src="assets/academic/2024_Google_Cloud_Career_Launchpad_Generative_AI_Leader_track__11-dec-2025__Certification_Learning.jpg" width="400"/> | <img src="assets/academic/2024_Getting_Started_with_DATA__22-dec-2025__Certification_Learning.jpg" width="400"/> |
+| <img src="assets/academic/2024_Getting_Started_with_DATA__22-dec-2025__Certification_Learning.jpg" width="400"/> | <img src="assets/academic/2024_Google_Cloud_Career_Launchpad_Generative_AI_Leader_track__11-dec-2025__Certification_Learning.jpg" width="400"/> |
 
 </details>
 
@@ -58,9 +58,9 @@
 
 | # | Event | Organized By | Date |
 |:-:|---|---|---|
-| 1 | **EY Techathon 4.0** — Round 1 Participation | Ernst & Young (EY) | 2024–2025 |
-| 2 | **TCS TechBytes** — Campus Event | Tata Consultancy Services | 2024–2025 |
-| 3 | **AIGINITION Hackathon** — Participation | AIGINITION | Nov 2025 |
+| 1 | **AIGINITION Hackathon** — Participation | AIGINITION | Nov 2025 |
+| 2 | **EY Techathon 4.0** — Round 1 Participation | Ernst & Young (EY) | 2024–2025 |
+| 3 | **TCS TechBytes** — Campus Event | Tata Consultancy Services | 2024–2025 |
 | 4 | **Sanchalana 2023** — Aircrash & Ludo Events | SVIT (State Level Cultural Fest) | Jun 2023 |
 | 5 | **Vignanothsav 2023** — Participation | SVIT | 2023 |
 
@@ -68,13 +68,13 @@
 <summary>📄 View Certificates</summary>
 <br>
 
-| EY Techathon 4.0 | TCS TechBytes |
-|:---:|:---:|
-| <img src="assets/uncategorized/2024_Ey_Techathon_4.0_Round_1_Certification_Participation.jpg" width="400"/> | <img src="assets/hackathons/2024_TCS_TechBytes_Sit_Campus_Certification_Participation.jpg" width="400"/> |
-
 | AIGINITION Hackathon |
 |:---:|
 | <img src="assets/hackathons/2024_AIGINITION_Hackathon_1st-NOV_Certification_Participation_2025.jpg" width="400"/> |
+
+| EY Techathon 4.0 | TCS TechBytes |
+|:---:|:---:|
+| <img src="assets/uncategorized/2024_Ey_Techathon_4.0_Round_1_Certification_Participation.jpg" width="400"/> | <img src="assets/hackathons/2024_TCS_TechBytes_Sit_Campus_Certification_Participation.jpg" width="400"/> |
 
 **Sanchalana 2023 — Cultural Fest Events**
 
@@ -94,36 +94,36 @@
 
 | # | Activity | Associated With | Date |
 |:-:|---|---|---|
-| 1 | **Cleanliness Drive** — Participation | Rotaract / College | 2024 |
-| 2 | **Polio Awareness Campaign** — Participation | Rotaract Club | Oct 2024 |
-| 3 | **INOCON 2023** — IEEE International Conference Volunteer | IEEE Bangalore Section, SVIT | Mar 2023 |
-| 4 | **Cultural Activities Volunteering** | Govt High School, Rajanukunte | 2023–2024 |
-| 5 | **Belaku Volunteering** | Rotaract Club of SVIT | 2022–2023 |
-| 6 | **Krishiyalli Kushi Volunteering** | Rotaract Club of SVIT | 2024–2025 |
-| 7 | **Seal & Save Food Preservation Drive** | Rotaract Club of SVIT | 2024–2025 |
-| 8 | **Water Conservation Volunteering** | Rotaract Club of SVIT | 2025–2026 |
+| 1 | **Water Conservation Volunteering** | Rotaract Club of SVIT | 2025–2026 |
+| 2 | **Seal & Save Food Preservation Drive** | Rotaract Club of SVIT | 2024–2025 |
+| 3 | **Krishiyalli Kushi Volunteering** | Rotaract Club of SVIT | 2024–2025 |
+| 4 | **Polio Awareness Campaign** — Participation | Rotaract Club | Oct 2024 |
+| 5 | **Cleanliness Drive** — Participation | Rotaract / College | 2024 |
+| 6 | **Cultural Activities Volunteering** | Govt High School, Rajanukunte | 2023–2024 |
+| 7 | **INOCON 2023** — IEEE International Conference Volunteer | IEEE Bangalore Section, SVIT | Mar 2023 |
+| 8 | **Belaku Volunteering** | Rotaract Club of SVIT | 2022–2023 |
 
 <details>
 <summary>📄 View Certificates</summary>
 <br>
 
-| Cleanliness Drive | Polio Awareness |
+**VTU Activity Points / Volunteering**
+
+| Water Conservation (2025-26) | Seal & Save Drive (2024-25) | Krishiyalli Kushi (2024-25) |
+|:---:|:---:|:---:|
+| <img src="assets/community_service/2025-26_Water_Conservation_Volunteering_Certification_Participation_2025-26.png" width="280"/> | <img src="assets/community_service/2024-25_Seal___Save_Drive_Certification_Participation_2024-25.png" width="280"/> | <img src="assets/community_service/2024-25_Krishiyalli_Kushi_Volunteering_Certification_Participation_2024-25.png" width="280"/> |
+
+| Polio Awareness | Cleanliness Drive |
 |:---:|:---:|
-| <img src="Cleaness drive Cetification/IMG_4047.jpg" width="400"/> | <img src="assets/community_service/2024_Polio_Awareness___24-oct-2024___Certification_Learning.jpg" width="400"/> |
+| <img src="assets/community_service/2024_Polio_Awareness___24-oct-2024___Certification_Learning.jpg" width="400"/> | <img src="Cleaness drive Cetification/IMG_4047.jpg" width="400"/> |
+
+| Cultural Activities (2023-24) | Belaku (2022-23) |
+|:---:|:---:|
+| <img src="assets/community_service/2023-24_Cultural_Activities_Volunteering_Certification_Participation_2023-24.png" width="400"/> | <img src="assets/community_service/2022-23_Belaku_Volunteering_Certification_Participation_2022-23.png" width="400"/> |
 
 | INOCON 2023 — IEEE Volunteer (Certificate of Appreciation) |
 |:---:|
 | <img src="assets/uncategorized/2024_2nd_Interna_Conf_on_Innovation_in_Technology__INOCON___Appreciat_Certification_Participation_2022-23.jpg" width="400"/> |
-
-**VTU Activity Points / Volunteering**
-
-| Cultural Activities (2023-24) | Belaku (2022-23) | Krishiyalli Kushi (2024-25) |
-|:---:|:---:|:---:|
-| <img src="assets/community_service/2023-24_Cultural_Activities_Volunteering_Certification_Participation_2023-24.png" width="280"/> | <img src="assets/community_service/2022-23_Belaku_Volunteering_Certification_Participation_2022-23.png" width="280"/> | <img src="assets/community_service/2024-25_Krishiyalli_Kushi_Volunteering_Certification_Participation_2024-25.png" width="280"/> |
-
-| Seal & Save Drive (2024-25) | Water Conservation (2025-26) |
-|:---:|:---:|
-| <img src="assets/community_service/2024-25_Seal___Save_Drive_Certification_Participation_2024-25.png" width="400"/> | <img src="assets/community_service/2025-26_Water_Conservation_Volunteering_Certification_Participation_2025-26.png" width="400"/> |
 
 </details>
 
@@ -133,17 +133,17 @@
 
 | # | Certification | Issued By | Date |
 |:-:|---|---|---|
-| 1 | **Sanchalana Coordination** — College Event | College / University | May 2024 |
-| 2 | **Areas of Focus** — Rotary Learning | Rotary International | Dec 2024 |
-| 3 | **SPARK** — Rotaract Leadership Training (Certificate of Graduation) | Rotaract District 3192 | Jun 2024 |
+| 1 | **Areas of Focus** — Rotary Learning | Rotary International | Dec 2024 |
+| 2 | **SPARK** — Rotaract Leadership Training (Certificate of Graduation) | Rotaract District 3192 | Jun 2024 |
+| 3 | **Sanchalana Coordination** — College Event | College / University | May 2024 |
 
 <details>
 <summary>📄 View Certificates</summary>
 <br>
 
-| Sanchalana Coordination | Rotary — Areas of Focus |
+| Rotary — Areas of Focus | Sanchalana Coordination |
 |:---:|:---:|
-| <img src="assets/leadership/2024_Sanchalana_Coordination_10_11-may-2024__Certification_Participation.jpg" width="400"/> | <img src="assets/academic/2024_Areas_Focus___30-dec-2024___Certification_Learning.png" width="400"/> |
+| <img src="assets/academic/2024_Areas_Focus___30-dec-2024___Certification_Learning.png" width="400"/> | <img src="assets/leadership/2024_Sanchalana_Coordination_10_11-may-2024__Certification_Participation.jpg" width="400"/> |
 
 | SPARK — Rotaract Leadership Training (Graduation) | Receiving SPARK Leadership Award |
 |:---:|:---:|
