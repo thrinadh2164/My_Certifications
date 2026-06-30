@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=🏆%20My%20Certifications%20%26%20Achievements&fontSize=45&fontAlignY=38&desc=E%20Thrinadh%20Chowdary&descAlignY=61&descSize=25&animation=twinkling" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=My%20Certifications%20%26%20Achievements&fontSize=45&fontAlignY=38&desc=E%20Thrinadh%20Chowdary&descAlignY=61&descSize=25&animation=twinkling" width="100%" />
 
 <br>
 
-**BE CSE (AI & ML) Graduate | Full-Stack Developer | AI/ML Enthusiast**
+**BE CSE (AI & ML) Graduate | Developer | AI/ML Enthusiast**
 
 <br>
 
