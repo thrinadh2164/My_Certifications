@@ -42,6 +42,8 @@
 |:-:|---|---|---|
 | 1 | **Getting Started with Data** | IBM SkillsBuild | Dec 2025 |
 | 2 | **Google Cloud Career Launchpad** — Generative AI Leader Track | Google Cloud | 2025 |
+| 3 | **AI Fluency Framework & Foundations** | AI Fluency | 2026 |
+| 4 | **Claude 101** | Anthropic | 2026 |
 
 <details>
 <summary>📄 View Certificates</summary>
@@ -50,6 +52,10 @@
 | IBM SkillsBuild — Data | Google Cloud — Gen AI Leader Track |
 |:---:|:---:|
 | <img src="assets/academic/2024_Getting_Started_with_DATA__22-dec-2025__Certification_Learning.jpg" width="400"/> | <img src="assets/academic/2024_Google_Cloud_Career_Launchpad_Generative_AI_Leader_track__11-dec-2025__Certification_Learning.jpg" width="400"/> |
+
+| AI Fluency Framework & Foundations | Claude 101 |
+|:---:|:---:|
+| <img src="assets/academic/2026_AI_Fluency_Framework_Foundations_Certification_Learning.jpg" width="400"/> | <img src="assets/academic/2026_Claude_101_Certification_Learning.jpg" width="400"/> |
 
 </details>
 
@@ -183,12 +189,12 @@
 
 | Category | Count |
 |---|:---:|
-| ☁️ Technical / Course Completion | 2 |
+| ☁️ Technical / Course Completion | 4 |
 | 🏆 Hackathons and technical events | 4 |
 | 🎓 Leadership & Academic | 3 |
 | 🤝 Community Service & Volunteering | 7 |
 | 🎭 Non-Technical Events | 2 |
-| **Total** | **18** |
+| **Total** | **20** |
 
 ---
 
