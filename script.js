@@ -64,8 +64,26 @@ class GalleryApp {
             // Filter out excluded photos based on the requirements
             this.allData = rawData.filter(item => !this.shouldExclude(item.file));
             
-            // Initial render (All section defaults to reverse/LIFO order)
-            this.renderGallery([...this.allData].reverse());
+            // Sort strictly by year descending (e.g. 2026 -> 2025 -> 2024)
+            this.allData.sort((a, b) => {
+                const getHighestYear = (yearStr) => {
+                    let highest = 0;
+                    if (!yearStr) return highest;
+                    const parts = String(yearStr).split(/[-_ ]/);
+                    for (let p of parts) {
+                        if (p.length === 4 && !isNaN(p)) {
+                            highest = Math.max(highest, parseInt(p));
+                        } else if (p.length === 2 && !isNaN(p)) {
+                            highest = Math.max(highest, 2000 + parseInt(p));
+                        }
+                    }
+                    return highest;
+                };
+                return getHighestYear(b.year) - getHighestYear(a.year);
+            });
+            
+            // Initial render
+            this.renderGallery(this.allData);
         } catch (err) {
             console.error("Gallery initialization failed:", err);
             this.renderError();
@@ -79,8 +97,7 @@ class GalleryApp {
         
         const filter = btn.dataset.filter;
         if(filter === 'all') {
-            // All section displays in reverse (LIFO) order
-            this.renderGallery([...this.allData].reverse());
+            this.renderGallery(this.allData);
         } else {
             const filtered = this.allData.filter(item => item.category === filter);
             this.renderGallery(filtered);
