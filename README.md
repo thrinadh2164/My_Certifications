@@ -183,7 +183,6 @@
 | 2 | **Sanchalana 2023** — Ludo | SVIT (State Level Cultural Fest) | Jun 2023 |
 | 3 | **Tech Vidya** — BornToWin | SVIT | 2022–2023 |
 | 4 | **Tech Vidya** — Imagify | SVIT | 2023–2024 |
-| 5 | **Image the Event** | Event Participation | 2024–2025 |
 
 <details>
 <summary>📄 View Certificates</summary>
@@ -200,10 +199,6 @@
 | Tech Vidya — BornToWin | Tech Vidya — Imagify |
 |:---:|:---:|
 | <img src="assets/events/2022-23_Tech_Vidya_BornToWin_Certification_Participation_2022-23.jpg" width="400"/> | <img src="assets/events/2023-24_Tech_Vidya_Imagify_Certification_Participation_2023-24.jpg" width="400"/> |
-
-| Image the Event |
-|:---:|
-| <img src="assets/events/2024-25_image_the_event_Certification_Learning.jpg" width="400"/> |
 
 </details>
 
@@ -229,8 +224,8 @@
 | 🏆 Hackathons and technical events | 5 |
 | 🎓 Leadership & Academic | 6 |
 | 🤝 Community Service & Volunteering | 8 |
-| 🎭 Non-Technical Events | 5 |
-| **Total** | **30** |
+| 🎭 Non-Technical Events | 4 |
+| **Total** | **29** |
 
 ---
 

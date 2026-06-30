@@ -36,6 +36,24 @@
         "type": "image"
     },
     {
+        "id": "2024-25_Intuition_Building_ML_DL_Certification_Learning_2024-25.jpg",
+        "title": " Intuition Building ML DL Certification Learning 2024-25",
+        "category": "academic",
+        "year": "2024-25",
+        "source": "Certification",
+        "file": "assets/academic/2024-25_Intuition_Building_ML_DL_Certification_Learning_2024-25.jpg",
+        "type": "image"
+    },
+    {
+        "id": "2023-24_Exploratory_Data_Analysis_Certification_Learning_2023-24.jpg",
+        "title": " Exploratory Data Analysis Certification Learning 2023-24",
+        "category": "academic",
+        "year": "2023-24",
+        "source": "Certification",
+        "file": "assets/academic/2023-24_Exploratory_Data_Analysis_Certification_Learning_2023-24.jpg",
+        "type": "image"
+    },
+    {
         "id": "2024_AIGINITION_Hackathon_1st-NOV_Certification_Participation_2025.jpg",
         "title": " AIGINITION Hackathon 1st-NOV Certification Participation 2025",
         "category": "hackathons",
@@ -69,6 +87,15 @@
         "year": "2024",
         "source": "Certification",
         "file": "assets/hackathons/2024_TCS_TechBytes_Sit_Campus_Certification_Participation.jpg",
+        "type": "image"
+    },
+    {
+        "id": "2023-24_NVIDIA_GeForce_Day_Certification_Participation_2023-24.jpg",
+        "title": " NVIDIA GeForce Day Certification Participation 2023-24",
+        "category": "hackathons",
+        "year": "2023-24",
+        "source": "Certification",
+        "file": "assets/hackathons/2023-24_NVIDIA_GeForce_Day_Certification_Participation_2023-24.jpg",
         "type": "image"
     },
     {
@@ -114,6 +141,33 @@
         "year": "2024-25",
         "source": "Certification",
         "file": "assets/leadership/2024-25_With_Fellow_President.jpg",
+        "type": "image"
+    },
+    {
+        "id": "2024-25_ALOKA_Conference_Certification_Participation_2024-25.jpg",
+        "title": " ALOKA Conference Certification Participation 2024-25",
+        "category": "leadership",
+        "year": "2024-25",
+        "source": "Certification",
+        "file": "assets/leadership/2024-25_ALOKA_Conference_Certification_Participation_2024-25.jpg",
+        "type": "image"
+    },
+    {
+        "id": "2024-25_PROPEL_Training_Certification_Learning_2024-25.jpg",
+        "title": " PROPEL Training Certification Learning 2024-25",
+        "category": "leadership",
+        "year": "2024-25",
+        "source": "Certification",
+        "file": "assets/leadership/2024-25_PROPEL_Training_Certification_Learning_2024-25.jpg",
+        "type": "image"
+    },
+    {
+        "id": "2025-26_DOLS_Training_Certification_Learning_2025-26.jpg",
+        "title": " DOLS Training Certification Learning 2025-26",
+        "category": "leadership",
+        "year": "2025-26",
+        "source": "Certification",
+        "file": "assets/leadership/2025-26_DOLS_Training_Certification_Learning_2025-26.jpg",
         "type": "image"
     },
     {
@@ -189,6 +243,15 @@
         "type": "image"
     },
     {
+        "id": "2024-25_Swachhata_Hi_Seva_Certification_Participation_2024-25.jpg",
+        "title": " Swachhata Hi Seva Certification Participation 2024-25",
+        "category": "community_service",
+        "year": "2024-25",
+        "source": "Certification",
+        "file": "assets/community_service/2024-25_Swachhata_Hi_Seva_Certification_Participation_2024-25.jpg",
+        "type": "image"
+    },
+    {
         "id": "2022-23_Aircrash_event_Sanchalana_Certification_Participation_2022-23.jpg",
         "title": " Aircrash event Sanchalana Certification Participation 2022-23",
         "category": "events",
@@ -216,48 +279,12 @@
         "type": "image"
     },
     {
-        "id": "2024_TCS_TechBytes_2025_Certification_Participation.jpg",
-        "title": " TCS TechBytes 2025 Certification Participation",
-        "category": "hackathons",
-        "year": "2024",
-        "source": "Certification",
-        "file": "assets/hackathons/2024_TCS_TechBytes_2025_Certification_Participation.jpg",
-        "type": "image"
-    },
-    {
-        "id": "2024-25_PROPEL_Training_Certification_Learning_2024-25.jpg",
-        "title": " PROPEL Training Certification Learning 2024-25",
-        "category": "leadership",
-        "year": "2024-25",
-        "source": "Certification",
-        "file": "assets/leadership/2024-25_PROPEL_Training_Certification_Learning_2024-25.jpg",
-        "type": "image"
-    },
-    {
-        "id": "2024_Polio_Awareness_pic_Certification_Learning.jpg",
-        "title": " Polio Awareness pic Certification Learning",
-        "category": "community_service",
-        "year": "2024",
-        "source": "Certification",
-        "file": "assets/community_service/2024_Polio_Awareness_pic_Certification_Learning.jpg",
-        "type": "image"
-    },
-    {
-        "id": "2023-24_Exploratory_Data_Analysis_Certification_Learning_2023-24.jpg",
-        "title": " Exploratory Data Analysis Certification Learning 2023-24",
-        "category": "academic",
+        "id": "2023-24_Tech_Vidya_Imagify_Certification_Participation_2023-24.jpg",
+        "title": " Tech Vidya Imagify Certification Participation 2023-24",
+        "category": "events",
         "year": "2023-24",
         "source": "Certification",
-        "file": "assets/academic/2023-24_Exploratory_Data_Analysis_Certification_Learning_2023-24.jpg",
-        "type": "image"
-    },
-    {
-        "id": "2024-25_ALOKA_Conference_Certification_Participation_2024-25.jpg",
-        "title": " ALOKA Conference Certification Participation 2024-25",
-        "category": "leadership",
-        "year": "2024-25",
-        "source": "Certification",
-        "file": "assets/leadership/2024-25_ALOKA_Conference_Certification_Participation_2024-25.jpg",
+        "file": "assets/events/2023-24_Tech_Vidya_Imagify_Certification_Participation_2023-24.jpg",
         "type": "image"
     },
     {
@@ -270,66 +297,30 @@
         "type": "video"
     },
     {
+        "id": "2024_Polio_Awareness_pic_Certification_Learning.jpg",
+        "title": " Polio Awareness pic Certification Learning",
+        "category": "community_service",
+        "year": "2024",
+        "source": "Certification",
+        "file": "assets/community_service/2024_Polio_Awareness_pic_Certification_Learning.jpg",
+        "type": "image"
+    },
+    {
+        "id": "2024_TCS_TechBytes_2025_Certification_Participation.jpg",
+        "title": " TCS TechBytes 2025 Certification Participation",
+        "category": "hackathons",
+        "year": "2024",
+        "source": "Certification",
+        "file": "assets/hackathons/2024_TCS_TechBytes_2025_Certification_Participation.jpg",
+        "type": "image"
+    },
+    {
         "id": "2022-23_SARA_Women_Cell_Logo_Design_Certification_Participation_2022-23.png",
         "title": " SARA Women Cell Logo Design Certification Participation 2022-23",
         "category": "creative",
         "year": "2022-23",
         "source": "Certification",
         "file": "assets/creative/2022-23_SARA_Women_Cell_Logo_Design_Certification_Participation_2022-23.png",
-        "type": "image"
-    },
-    {
-        "id": "2024-25_image_the_event_Certification_Learning.jpg",
-        "title": " image the event Certification Learning",
-        "category": "events",
-        "year": "2024-25",
-        "source": "Certification",
-        "file": "assets/events/2024-25_image_the_event_Certification_Learning.jpg",
-        "type": "image"
-    },
-    {
-        "id": "2023-24_Tech_Vidya_Imagify_Certification_Participation_2023-24.jpg",
-        "title": " Tech Vidya Imagify Certification Participation 2023-24",
-        "category": "events",
-        "year": "2023-24",
-        "source": "Certification",
-        "file": "assets/events/2023-24_Tech_Vidya_Imagify_Certification_Participation_2023-24.jpg",
-        "type": "image"
-    },
-    {
-        "id": "2024-25_Intuition_Building_ML_DL_Certification_Learning_2024-25.jpg",
-        "title": " Intuition Building ML DL Certification Learning 2024-25",
-        "category": "academic",
-        "year": "2024-25",
-        "source": "Certification",
-        "file": "assets/academic/2024-25_Intuition_Building_ML_DL_Certification_Learning_2024-25.jpg",
-        "type": "image"
-    },
-    {
-        "id": "2023-24_NVIDIA_GeForce_Day_Certification_Participation_2023-24.jpg",
-        "title": " NVIDIA GeForce Day Certification Participation 2023-24",
-        "category": "hackathons",
-        "year": "2023-24",
-        "source": "Certification",
-        "file": "assets/hackathons/2023-24_NVIDIA_GeForce_Day_Certification_Participation_2023-24.jpg",
-        "type": "image"
-    },
-    {
-        "id": "2024-25_Swachhata_Hi_Seva_Certification_Participation_2024-25.jpg",
-        "title": " Swachhata Hi Seva Certification Participation 2024-25",
-        "category": "community_service",
-        "year": "2024-25",
-        "source": "Certification",
-        "file": "assets/community_service/2024-25_Swachhata_Hi_Seva_Certification_Participation_2024-25.jpg",
-        "type": "image"
-    },
-    {
-        "id": "2025-26_DOLS_Training_Certification_Learning_2025-26.jpg",
-        "title": " DOLS Training Certification Learning 2025-26",
-        "category": "leadership",
-        "year": "2025-26",
-        "source": "Certification",
-        "file": "assets/leadership/2025-26_DOLS_Training_Certification_Learning_2025-26.jpg",
         "type": "image"
     }
 ]
