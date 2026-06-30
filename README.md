@@ -1,26 +1,25 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=My%20Certifications%20%26%20Achievements&fontSize=45&fontAlignY=38&desc=E%20Thrinadh%20Chowdary&descAlignY=61&descSize=25&animation=twinkling" width="100%" />
+# 🏆 My Certifications & Achievements
 
-<br>
-
+### E Thrinadh Chowdary
 **BE CSE (AI & ML) Graduate | Developer | AI/ML Enthusiast**
 
 <br>
 
-<a href="https://www.thrinadh.dev"><img src="https://img.shields.io/badge/Portfolio-thrinadh.dev-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/thrinadh2164/"><img src="https://img.shields.io/badge/LinkedIn-thrinadh2164-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://github.com/thrinadh2164"><img src="https://img.shields.io/badge/GitHub-thrinadh2164-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-
-<br><br>
-
-<a href="https://thrinadh2164.github.io/My_Certifications">
+<a href="https://thrinadh2164.github.io/My_Certifications" target="_blank">
   <img src="https://img.shields.io/badge/🌟_VIEW_LIVE_INTERACTIVE_GALLERY-Click_Here-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white" alt="Live Gallery"/>
 </a>
 
 <br><br>
 
 *A curated collection of my professional certifications, course completions, hackathon participations, and community service recognitions.*
+
+<br><br>
+
+<a href="https://www.thrinadh.dev" target="_blank"><img src="https://img.shields.io/badge/Portfolio-thrinadh.dev-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/thrinadh2164/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-thrinadh2164-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://github.com/thrinadh2164" target="_blank"><img src="https://img.shields.io/badge/GitHub-thrinadh2164-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 
 </div>
 
