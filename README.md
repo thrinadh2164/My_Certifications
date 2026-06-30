@@ -40,10 +40,12 @@
 
 | # | Certification | Issued By | Date |
 |:-:|---|---|---|
-| 1 | **Getting Started with Data** | IBM SkillsBuild | Dec 2025 |
+| 1 | **Getting Started with Data** | IBM SkillsBuild | 2025 |
 | 2 | **Google Cloud Career Launchpad** — Generative AI Leader Track | Google Cloud | 2025 |
 | 3 | **AI Fluency Framework & Foundations** | AI Fluency | 2026 |
 | 4 | **Claude 101** | Anthropic | 2026 |
+| 5 | **Intuition Building ML/DL** | Course Completion | 2024–2025 |
+| 6 | **Exploratory Data Analysis** | Course Completion | 2023–2024 |
 
 <details>
 <summary>📄 View Certificates</summary>
@@ -57,6 +59,10 @@
 |:---:|:---:|
 | <img src="assets/academic/2026_AI_Fluency_Framework_Foundations_Certification_Learning.jpg" width="400"/> | <img src="assets/academic/2026_Claude_101_Certification_Learning.jpg" width="400"/> |
 
+| Intuition Building ML/DL | Exploratory Data Analysis |
+|:---:|:---:|
+| <img src="assets/academic/2024-25_Intuition_Building_ML_DL_Certification_Learning_2024-25.jpg" width="400"/> | <img src="assets/academic/2023-24_Exploratory_Data_Analysis_Certification_Learning_2023-24.jpg" width="400"/> |
+
 </details>
 
 ---
@@ -69,6 +75,7 @@
 | 2 | **EY Techathon 4.0** — Round 1 Participation | Ernst & Young (EY) | 2024–2025 |
 | 3 | **TCS TechBytes** — Campus Event | Tata Consultancy Services | 2024–2025 |
 | 4 | **Vignanothsav 2023** — Participation | SVIT | 2023 |
+| 5 | **NVIDIA GeForce Day** — Participation | NVIDIA | 2023–2024 |
 
 <details>
 <summary>📄 View Certificates</summary>
@@ -80,7 +87,11 @@
 
 | EY Techathon 4.0 | TCS TechBytes |
 |:---:|:---:|
-| <img src="assets/uncategorized/2024_Ey_Techathon_4.0_Round_1_Certification_Participation.jpg" width="400"/> | <img src="assets/hackathons/2024_TCS_TechBytes_Sit_Campus_Certification_Participation.jpg" width="400"/> |
+| <img src="assets/hackathons/2024_Ey_Techathon_4.0_Round_1_Certification_Participation.jpg" width="400"/> | <img src="assets/hackathons/2024_TCS_TechBytes_Sit_Campus_Certification_Participation.jpg" width="400"/> |
+
+| NVIDIA GeForce Day |
+|:---:|
+| <img src="assets/hackathons/2023-24_NVIDIA_GeForce_Day_Certification_Participation_2023-24.jpg" width="400"/> |
 
 </details>
 
@@ -93,6 +104,9 @@
 | 1 | **Areas of Focus** — Rotary Learning | Rotary International | Dec 2024 |
 | 2 | **SPARK** — Rotaract Leadership Training (Certificate of Graduation) | Rotaract District 3192 | Jun 2024 |
 | 3 | **Sanchalana Coordination** — College Event | College / University | May 2024 |
+| 4 | **ALOKA Conference** — Participation | Rotaract | 2024–2025 |
+| 5 | **PROPEL Training** — Leadership | Rotaract | 2024–2025 |
+| 6 | **DOLS Training** — Leadership | Rotaract | 2025–2026 |
 
 <details>
 <summary>📄 View Certificates</summary>
@@ -107,6 +121,14 @@
 | <img src="assets/leadership/2024_SPARK_-Rotaract_Leadership_Training_2024_Issuer_RI_Disrtict-3192_Certification_Completion.jpg" width="400"/> | [**▶️ Click to Watch Video**<br>*(GitHub Native Player)*](https://github.com/thrinadh2164/My_Certifications/blob/main/assets/leadership/2024_Receiving_SPARK_Leadership_Award.mp4) |
 | **With RSVIT Team Members** | **With Fellow President** |
 | <img src="assets/leadership/2024-25_With_RSVIT_Team_Members.jpg" width="400"/> | <img src="assets/leadership/2024-25_With_Fellow_President.jpg" width="400"/> |
+
+| ALOKA Conference | PROPEL Training |
+|:---:|:---:|
+| <img src="assets/leadership/2024-25_ALOKA_Conference_Certification_Participation_2024-25.jpg" width="400"/> | <img src="assets/leadership/2024-25_PROPEL_Training_Certification_Learning_2024-25.jpg" width="400"/> |
+
+| DOLS Training |
+|:---:|
+| <img src="assets/leadership/2025-26_DOLS_Training_Certification_Learning_2025-26.jpg" width="400"/> |
 
 </details>
 
@@ -123,6 +145,7 @@
 | 5 | **Cleanliness Drive** — Participation | Rotaract / College | 2024 |
 | 6 | **Belaku Volunteering (Cultural Activities)** | Rotaract Club / Govt High School | 2022–2024 |
 | 7 | **INOCON 2023** — IEEE International Conference Volunteer | IEEE Bangalore Section, SVIT | Mar 2023 |
+| 8 | **Swachhata Hi Seva** — Participation | Community | 2024–2025 |
 
 <details>
 <summary>📄 View Certificates</summary>
@@ -144,9 +167,9 @@
 |:---:|:---:|
 | <img src="assets/community_service/2023-24_Cultural_Activities_Volunteering_Certification_Participation_2023-24.png" width="400"/> | <img src="assets/community_service/2022-23_Belaku_Volunteering_Certification_Participation_2022-23.png" width="400"/> |
 
-| INOCON 2023 — IEEE Volunteer (Certificate of Appreciation) |
-|:---:|
-| <img src="assets/uncategorized/2024_2nd_Interna_Conf_on_Innovation_in_Technology__INOCON___Appreciat_Certification_Participation_2022-23.jpg" width="400"/> |
+| INOCON 2023 — IEEE Volunteer | Swachhata Hi Seva |
+|:---:|:---:|
+| <img src="assets/community_service/2024_2nd_Interna_Conf_on_Innovation_in_Technology__INOCON___Appreciat_Certification_Participation_2022-23.jpg" width="400"/> | <img src="assets/community_service/2024-25_Swachhata_Hi_Seva_Certification_Participation_2024-25.jpg" width="400"/> |
 
 </details>
 
@@ -158,6 +181,9 @@
 |:-:|---|---|---|
 | 1 | **Sanchalana 2023** — Aircrash | SVIT (State Level Cultural Fest) | Jun 2023 |
 | 2 | **Sanchalana 2023** — Ludo | SVIT (State Level Cultural Fest) | Jun 2023 |
+| 3 | **Tech Vidya** — BornToWin | SVIT | 2022–2023 |
+| 4 | **Tech Vidya** — Imagify | SVIT | 2023–2024 |
+| 5 | **Image the Event** | Event Participation | 2024–2025 |
 
 <details>
 <summary>📄 View Certificates</summary>
@@ -168,6 +194,16 @@
 | Aircrash Event | Ludo Event |
 |:---:|:---:|
 | <img src="assets/events/2022-23_Aircrash_event_Sanchalana_Certification_Participation_2022-23.jpg" width="400"/> | <img src="assets/events/2022-23_Ludo_event_Sanchalana_Certification_Participation_2022-23.jpg" width="400"/> |
+
+**Tech Vidya & Other Events**
+
+| Tech Vidya — BornToWin | Tech Vidya — Imagify |
+|:---:|:---:|
+| <img src="assets/events/2022-23_Tech_Vidya_BornToWin_Certification_Participation_2022-23.jpg" width="400"/> | <img src="assets/events/2023-24_Tech_Vidya_Imagify_Certification_Participation_2023-24.jpg" width="400"/> |
+
+| Image the Event |
+|:---:|
+| <img src="assets/events/2024-25_image_the_event_Certification_Learning.jpg" width="400"/> |
 
 </details>
 
@@ -189,12 +225,12 @@
 
 | Category | Count |
 |---|:---:|
-| ☁️ Technical / Course Completion | 4 |
-| 🏆 Hackathons and technical events | 4 |
-| 🎓 Leadership & Academic | 3 |
-| 🤝 Community Service & Volunteering | 7 |
-| 🎭 Non-Technical Events | 2 |
-| **Total** | **20** |
+| ☁️ Technical / Course Completion | 6 |
+| 🏆 Hackathons and technical events | 5 |
+| 🎓 Leadership & Academic | 6 |
+| 🤝 Community Service & Volunteering | 8 |
+| 🎭 Non-Technical Events | 5 |
+| **Total** | **30** |
 
 ---
 
