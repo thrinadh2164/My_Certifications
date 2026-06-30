@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thrinadh's Awards & Certifications</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+    
+    <main class="container">
+        <header>
+            <h1 class="title">My <span>Portfolio</span> of Achievements</h1>
+            <p class="subtitle">A curated collection of my professional certifications, hackathon participations, and community service recognitions.</p>
+        </header>
+        
+        <nav class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="leadership">Leadership</button>
+            <button class="filter-btn" data-filter="academic">Technical</button>
+            <button class="filter-btn" data-filter="hackathons">Hackathons</button>
+            <button class="filter-btn" data-filter="community_service">Community</button>
+            <button class="filter-btn" data-filter="scholarships">Scholarships</button>
+        </nav>
+        
+        <section class="gallery" id="gallery">
+            <!-- Items will be injected here by JS -->
+        </section>
+    </main>
+
+    <!-- Modal for full view -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-btn">&times;</span>
+            <div id="modal-media-container"></div>
+            <div class="modal-info">
+                <h3 id="modal-title"></h3>
+                <p id="modal-year"></p>
+                <p id="modal-type"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

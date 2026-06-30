@@ -11,6 +11,8 @@
 
 ---
 
+### 🔗 [Click Here to View the Live Interactive Gallery](https://thrinadh2164.github.io/My_Certifications) 
+
 *A curated collection of my professional certifications, course completions, hackathon participations, and community service recognitions.*
 
 </div>
@@ -111,11 +113,11 @@
 
 | Cultural Activities (2023-24) | Belaku (2022-23) | Krishiyalli Kushi (2024-25) |
 |:---:|:---:|:---:|
-| <img src="Cultural_Activities_Volunteering_Certification_Participation_2023-24/Cultural_Activities_Volunteering_Certification_Participation_2023-24.png" width="280"/> | <img src="Belaku_Volunteering_Certification_Participation_2022-23/Belaku_Volunteering_Certification_Participation_2022-23.png" width="280"/> | <img src="Krishiyalli_Kushi_Volunteering_Certification_Participation_2024-25/Krishiyalli_Kushi_Volunteering_Certification_Participation_2024-25.png" width="280"/> |
+| <img src="assets/community_service/2023-24_Cultural_Activities_Volunteering_Certification_Participation_2023-24.png" width="280"/> | <img src="assets/community_service/2022-23_Belaku_Volunteering_Certification_Participation_2022-23.png" width="280"/> | <img src="assets/community_service/2024-25_Krishiyalli_Kushi_Volunteering_Certification_Participation_2024-25.png" width="280"/> |
 
 | Seal & Save Drive (2024-25) | Water Conservation (2025-26) |
 |:---:|:---:|
-| <img src="Seal_&_Save_Drive_Certification_Participation_2024-25/Seal_&_Save_Drive_Certification_Participation_2024-25.png" width="400"/> | <img src="Water_Conservation_Volunteering_Certification_Participation_2025-26/Water_Conservation_Volunteering_Certification_Participation_2025-26.png" width="400"/> |
+| <img src="assets/community_service/2024-25_Seal___Save_Drive_Certification_Participation_2024-25.png" width="400"/> | <img src="assets/community_service/2025-26_Water_Conservation_Volunteering_Certification_Participation_2025-26.png" width="400"/> |
 
 </details>
 
