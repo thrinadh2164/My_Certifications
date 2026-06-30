@@ -42,7 +42,7 @@
 
 | Google Cloud — Gen AI Leader Track | IBM SkillsBuild — Data |
 |:---:|:---:|
-| <img src="Google Cloud Cetification/Google Cloud Career Launchpad Generative AI Leader track (11-dec-2025).jpg" width="400"/> | <img src="IBM SKILL BUILD Cetification/Getting Started with DATA (22-dec-2025).jpg" width="400"/> |
+| <img src="assets/academic/2024_Google_Cloud_Career_Launchpad_Generative_AI_Leader_track__11-dec-2025__Certification_Learning.jpg" width="400"/> | <img src="assets/academic/2024_Getting_Started_with_DATA__22-dec-2025__Certification_Learning.jpg" width="400"/> |
 
 </details>
 
@@ -64,21 +64,21 @@
 
 | EY Techathon 4.0 | TCS TechBytes |
 |:---:|:---:|
-| <img src="EY Techathon 4.0 Participation certification/Ey_Techathon_4.0_Round_1_Participation_certification.jpg" width="400"/> | <img src="TCS_TechBytes Participation certification/TCS_TechBytes@Sit_Campus.jpg" width="400"/> |
+| <img src="assets/uncategorized/2024_Ey_Techathon_4.0_Round_1_Certification_Participation.jpg" width="400"/> | <img src="assets/hackathons/2024_TCS_TechBytes_Sit_Campus_Certification_Participation.jpg" width="400"/> |
 
 | AIGINITION Hackathon |
 |:---:|
-| <img src="AIGINITION Hackathon Participation Certification/AIGINITION_Hackathon_Participation_Certification_1st-NOV-2025.jpg" width="400"/> |
+| <img src="assets/hackathons/2024_AIGINITION_Hackathon_1st-NOV_Certification_Participation_2025.jpg" width="400"/> |
 
 **Sanchalana 2023 — Cultural Fest Events**
 
 | Aircrash Event | Ludo Event |
 |:---:|:---:|
-| <img src="Sanchalana 2023 Certificate of Participation/Aircrash_event_Sanchalana_2023_Certificate_of_Participation.jpg" width="400"/> | <img src="Sanchalana 2023 Certificate of Participation/Ludo_event_Sanchalana_2023_Certificate_of_Participation.jpg" width="400"/> |
+| <img src="assets/hackathons/2022-23_Aircrash_event_Sanchalana_Certification_Participation_2022-23.jpg" width="400"/> | <img src="assets/hackathons/2022-23_Ludo_event_Sanchalana_Certification_Participation_2022-23.jpg" width="400"/> |
 
 | Vignanothsav 2023 |
 |:---:|
-| <img src="Vignanothsav 2023 Certificate of Participation/Vignanothsav_2023_Certificate of Participation.jpg" width="400"/> |
+| <img src="assets/hackathons/2022-23_Vignanothsav_Certification_Participation_2022-23.jpg" width="400"/> |
 
 </details>
 
@@ -103,11 +103,11 @@
 
 | Cleanliness Drive | Polio Awareness |
 |:---:|:---:|
-| <img src="Cleaness drive Cetification/IMG_4047.jpg" width="400"/> | <img src="Polio Awareness Participation certification/Polio_Awareness_( 24-oct-2024 ).jpg" width="400"/> |
+| <img src="Cleaness drive Cetification/IMG_4047.jpg" width="400"/> | <img src="assets/community_service/2024_Polio_Awareness___24-oct-2024___Certification_Learning.jpg" width="400"/> |
 
 | INOCON 2023 — IEEE Volunteer (Certificate of Appreciation) |
 |:---:|
-| <img src="2nd International Conference on Innovation in Technology Volunteer Certificate of Appreciation/2nd_Interna_Conf_on_Innovation_in_Technology_Volunteer_(INOCON 2023) Certificate_of_Appreciat.jpg" width="400"/> |
+| <img src="assets/uncategorized/2024_2nd_Interna_Conf_on_Innovation_in_Technology__INOCON___Appreciat_Certification_Participation_2022-23.jpg" width="400"/> |
 
 **VTU Activity Points / Volunteering**
 
@@ -137,11 +137,11 @@
 
 | Sanchalana Coordination | Rotary — Areas of Focus |
 |:---:|:---:|
-| <img src="College Coordination Cetification/Sanchalana Coordination(10&11-may-2024).jpg" width="400"/> | <img src="Rotary learning certificate/Areas of Focus ( 30-dec-2024 ).png" width="400"/> |
+| <img src="assets/leadership/2024_Sanchalana_Coordination_10_11-may-2024__Certification_Participation.jpg" width="400"/> | <img src="assets/academic/2024_Areas_Focus___30-dec-2024___Certification_Learning.png" width="400"/> |
 
 | SPARK — Rotaract Leadership Training (Graduation) |
 |:---:|
-| <img src="SPARK - Rotaract Leadership Training Certificate of Graduation/SPARK -Rotaract_Leadership_Training_Certificate_of_Graduation_2024_Issuer_RI_Disrtict-3192.jpg" width="400"/> |
+| <img src="assets/leadership/2024_SPARK_-Rotaract_Leadership_Training_2024_Issuer_RI_Disrtict-3192_Certification_Completion.jpg" width="400"/> |
 
 </details>
 
