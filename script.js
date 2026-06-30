@@ -24,7 +24,102 @@ class GalleryApp {
 
     async init() {
         this.setupEventListeners();
+        this.setupCursorAndAudio();
         await this.fetchData();
+    }
+
+    setupCursorAndAudio() {
+        // Advanced Web Audio API Engine
+        this.audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        
+        this.playHoverSound = () => {
+            if(this.audioCtx.state === 'suspended') return;
+            const bufferSize = this.audioCtx.sampleRate * 0.01; // 10ms
+            const buffer = this.audioCtx.createBuffer(1, bufferSize, this.audioCtx.sampleRate);
+            const data = buffer.getChannelData(0);
+            for (let i = 0; i < bufferSize; i++) {
+                data[i] = Math.random() * 2 - 1;
+            }
+            const noise = this.audioCtx.createBufferSource();
+            noise.buffer = buffer;
+            
+            const filter = this.audioCtx.createBiquadFilter();
+            filter.type = 'highpass';
+            filter.frequency.value = 5000; // High pitch sharp tik
+            
+            const gain = this.audioCtx.createGain();
+            gain.gain.setValueAtTime(0.05, this.audioCtx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.001, this.audioCtx.currentTime + 0.01);
+            
+            noise.connect(filter);
+            filter.connect(gain);
+            gain.connect(this.audioCtx.destination);
+            noise.start();
+        };
+
+        this.playClickSound = () => {
+            if(this.audioCtx.state === 'suspended') this.audioCtx.resume();
+            const bufferSize = this.audioCtx.sampleRate * 0.02; // 20ms
+            const buffer = this.audioCtx.createBuffer(1, bufferSize, this.audioCtx.sampleRate);
+            const data = buffer.getChannelData(0);
+            for (let i = 0; i < bufferSize; i++) {
+                data[i] = Math.random() * 2 - 1;
+            }
+            const noise = this.audioCtx.createBufferSource();
+            noise.buffer = buffer;
+            
+            const filter = this.audioCtx.createBiquadFilter();
+            filter.type = 'bandpass';
+            filter.frequency.value = 2500; // Lower pitch solid tok
+            
+            const gain = this.audioCtx.createGain();
+            gain.gain.setValueAtTime(0.2, this.audioCtx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.001, this.audioCtx.currentTime + 0.02);
+            
+            noise.connect(filter);
+            filter.connect(gain);
+            gain.connect(this.audioCtx.destination);
+            noise.start();
+        };
+
+        // Interactive Custom Cursor
+        const cursor = document.getElementById('custom-cursor');
+        const follower = document.getElementById('custom-cursor-follower');
+        
+        if (cursor && follower && window.matchMedia("(pointer: fine)").matches) {
+            document.addEventListener('mousemove', (e) => {
+                cursor.style.left = e.clientX + 'px';
+                cursor.style.top = e.clientY + 'px';
+                follower.style.left = e.clientX + 'px';
+                follower.style.top = e.clientY + 'px';
+            });
+
+            document.addEventListener('mouseover', (e) => {
+                const target = e.target.closest('button, .card, .close-btn, a');
+                if (target) {
+                    cursor.classList.add('hovering');
+                    follower.classList.add('hovering');
+                    this.playHoverSound();
+                }
+            });
+
+            document.addEventListener('mouseout', (e) => {
+                const target = e.target.closest('button, .card, .close-btn, a');
+                if (target) {
+                    cursor.classList.remove('hovering');
+                    follower.classList.remove('hovering');
+                }
+            });
+        }
+
+        // Global click listener for sound and Audio Context unlock
+        document.addEventListener('click', (e) => {
+            if(this.audioCtx.state === 'suspended') this.audioCtx.resume();
+            const target = e.target.closest('button, .card, .close-btn, a');
+            if (target) {
+                this.playClickSound();
+            }
+        });
     }
 
     setupEventListeners() {
@@ -140,12 +235,8 @@ class GalleryApp {
         const fragment = document.createDocumentFragment();
 
         items.forEach((item, index) => {
-            // Cap staggered animation delay to prevent overly long waits
-            const delay = Math.min(index * 0.05, 0.5); 
-            
             const card = document.createElement('article');
             card.className = 'card';
-            card.style.animationDelay = `${delay}s`;
             card.tabIndex = 0;
             card.setAttribute('role', 'button');
             card.setAttribute('aria-label', `View details for ${item.title}`);
@@ -179,10 +270,42 @@ class GalleryApp {
                 }
             });
             
+            // 3D Tilt Hover Effect
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                // Reduced 3D intensity
+                const rotateX = ((y - centerY) / centerY) * -3;
+                const rotateY = ((x - centerX) / centerX) * 3;
+                
+                card.style.transform = `perspective(1200px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.02, 1.02, 1.02)`;
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'perspective(1200px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)';
+            });
+            
             fragment.appendChild(card);
         });
 
         this.gallery.appendChild(fragment);
+        
+        // Anime.js 3D Entrance Animation (Subtle)
+        if (typeof anime !== 'undefined') {
+            anime({
+                targets: '.card',
+                translateY: [30, 0],
+                translateZ: [50, 0],
+                rotateX: [5, 0],
+                opacity: [0, 1],
+                easing: 'easeOutElastic(1, .8)',
+                duration: 1200,
+                delay: anime.stagger(50, {start: 50})
+            });
+        }
     }
 
     openModal(item) {

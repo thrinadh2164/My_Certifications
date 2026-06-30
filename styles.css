@@ -1,5 +1,5 @@
 :root {
-    --bg-color: #0f172a;
+    --bg-color: #09090b;
     --text-main: #f8fafc;
     --text-muted: #94a3b8;
     --accent: #3b82f6;
@@ -46,9 +46,10 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
+    width: 95%;
     margin: 0 auto;
-    padding: 4rem 2rem;
+    padding: 4rem 1rem;
 }
 
 header {
@@ -104,32 +105,29 @@ header {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 2rem;
+    perspective: 1200px; /* Crucial for 3D anime.js and tilt effect */
 }
 
 .card {
-    background: var(--glass-bg);
-    border: 1px solid var(--glass-border);
+    background: rgba(30, 41, 59, 0.4); /* Enhanced Glassmorphism */
+    border: 1px solid rgba(255, 255, 255, 0.05);
     border-radius: 20px;
     overflow: hidden;
-    backdrop-filter: blur(10px);
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    backdrop-filter: blur(20px);
     cursor: pointer;
     position: relative;
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeIn 0.5s forwards;
+    opacity: 0; /* Handled by Anime.js */
+    transform-style: preserve-3d;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    /* Removed native transform transition and CSS animations to let JS handle it smoothly */
 }
 
 .card:hover {
-    transform: translateY(-10px) scale(1.02);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
-    border-color: rgba(255,255,255,0.3);
-}
-
-@keyframes fadeIn {
-    to { opacity: 1; transform: translateY(0); }
+    box-shadow: 0 30px 60px -12px rgba(0,0,0,0.8), 0 0 25px rgba(59, 130, 246, 0.3);
+    border-color: rgba(255,255,255,0.2);
+    z-index: 10;
 }
 
 .card-media {
@@ -259,3 +257,103 @@ header {
     outline-offset: 4px;
 }
 /* ------------------------------------------- */
+
+/* Custom Interactive Cursor */
+@media (pointer: fine) {
+    body {
+        cursor: none;
+    }
+    
+    .custom-cursor, .custom-cursor-follower {
+        position: fixed;
+        top: 0; left: 0;
+        pointer-events: none;
+        border-radius: 50%;
+        z-index: 9999;
+        transform: translate(-50%, -50%);
+    }
+    
+    .custom-cursor {
+        width: 8px;
+        height: 8px;
+        background: var(--accent);
+        transition: width 0.2s, height 0.2s, background 0.2s;
+    }
+    
+    .custom-cursor-follower {
+        width: 30px;
+        height: 30px;
+        border: 1px solid rgba(59, 130, 246, 0.5);
+        transition: left 0.1s ease-out, top 0.1s ease-out, width 0.2s, height 0.2s, background 0.2s;
+    }
+    
+    .custom-cursor.hovering {
+        width: 12px;
+        height: 12px;
+        background: #fff;
+    }
+    
+    .custom-cursor-follower.hovering {
+        width: 50px;
+        height: 50px;
+        background: rgba(255, 255, 255, 0.1);
+        border-color: transparent;
+    }
+}
+
+
+/* Responsive Auto-Scaling */
+@media (max-width: 900px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 2rem 1rem;
+    }
+    
+    .title {
+        font-size: 2.5rem;
+    }
+    
+    .subtitle {
+        font-size: 1rem;
+    }
+    
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 1.25rem;
+    }
+    
+    .modal-content {
+        padding: 1rem;
+        width: 95%;
+    }
+    
+    .modal-info h3 {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 2rem;
+    }
+    
+    .filters {
+        gap: 0.5rem;
+    }
+    
+    .filter-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+    
+    .gallery {
+        grid-template-columns: 1fr; /* Single column on very small phones */
+        gap: 1.5rem;
+    }
+}
