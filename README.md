@@ -115,7 +115,7 @@
 
 | Polio Awareness | Cleanliness Drive |
 |:---:|:---:|
-| <img src="assets/community_service/2024_Polio_Awareness___24-oct-2024___Certification_Learning.jpg" width="400"/> | <img src="Cleaness drive Cetification/IMG_4047.jpg" width="400"/> |
+| <img src="assets/community_service/2024_Polio_Awareness___24-oct-2024___Certification_Learning.jpg" width="400"/> | <img src="assets/community_service/2023-24_Beach_Clean_Drive_Certification_Participation_2023-24.jpg" width="400"/> |
 
 | Cultural Activities (2023-24) | Belaku (2022-23) |
 |:---:|:---:|
@@ -147,7 +147,7 @@
 
 | SPARK — Rotaract Leadership Training (Graduation) | Receiving SPARK Leadership Award |
 |:---:|:---:|
-| <img src="assets/leadership/2024_SPARK_-Rotaract_Leadership_Training_2024_Issuer_RI_Disrtict-3192_Certification_Completion.jpg" width="400"/> | <video src="https://raw.githubusercontent.com/thrinadh2164/My_Certifications/main/assets/leadership/2024_Receiving_SPARK_Leadership_Award.mp4" width="400" controls></video> |
+| <img src="assets/leadership/2024_SPARK_-Rotaract_Leadership_Training_2024_Issuer_RI_Disrtict-3192_Certification_Completion.jpg" width="400"/> | <a href="https://github.com/thrinadh2164/My_Certifications/blob/main/assets/leadership/2024_Receiving_SPARK_Leadership_Award.mp4"><h3>▶️ Click to Watch Video</h3><br><i>(GitHub Native Player)</i></a> |
 | **With RSVIT Team Members** | **With Fellow President** |
 | <img src="assets/leadership/2024-25_With_RSVIT_Team_Members.jpg" width="400"/> | <img src="assets/leadership/2024-25_With_Fellow_President.jpg" width="400"/> |
 
