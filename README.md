@@ -11,7 +11,7 @@
 
 ---
 
-### 🔗 [Click Here to View the Live Interactive Gallery](https://thrinadh2164.github.io/My_Certifications) 
+### [![Live Gallery](https://img.shields.io/badge/View_Live_Interactive_Gallery-Click_Here-2ea44f?style=for-the-badge)](https://thrinadh2164.github.io/My_Certifications)
 
 *A curated collection of my professional certifications, course completions, hackathon participations, and community service recognitions.*
 
