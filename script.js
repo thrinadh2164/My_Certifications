@@ -16,7 +16,7 @@ class GalleryApp {
             'rsvit_team', 
             'with_my_team', 
             'team_iconic',
-            'with_my_team'
+            'gnaneshwar'
         ];
 
         this.init();
