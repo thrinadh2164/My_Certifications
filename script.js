@@ -54,7 +54,9 @@ class GalleryApp {
     async fetchData() {
         this.renderLoading();
         try {
-            const response = await fetch('data.json');
+            // Append a timestamp to prevent aggressive browser caching of data.json
+            const timestamp = new Date().getTime();
+            const response = await fetch(`data.json?v=${timestamp}`);
             if (!response.ok) throw new Error("Failed to fetch gallery data");
             
             const rawData = await response.json();
@@ -62,8 +64,8 @@ class GalleryApp {
             // Filter out excluded photos based on the requirements
             this.allData = rawData.filter(item => !this.shouldExclude(item.file));
             
-            // Initial render
-            this.renderGallery(this.allData);
+            // Initial render (All section defaults to reverse/LIFO order)
+            this.renderGallery([...this.allData].reverse());
         } catch (err) {
             console.error("Gallery initialization failed:", err);
             this.renderError();
@@ -77,7 +79,8 @@ class GalleryApp {
         
         const filter = btn.dataset.filter;
         if(filter === 'all') {
-            this.renderGallery(this.allData);
+            // All section displays in reverse (LIFO) order
+            this.renderGallery([...this.allData].reverse());
         } else {
             const filtered = this.allData.filter(item => item.category === filter);
             this.renderGallery(filtered);
