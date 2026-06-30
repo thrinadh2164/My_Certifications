@@ -1,48 +1,138 @@
-document.addEventListener('DOMContentLoaded', async () => {
-    const gallery = document.getElementById('gallery');
-    const filterBtns = document.querySelectorAll('.filter-btn');
-    const modal = document.getElementById('modal');
-    const closeBtn = document.getElementById('close-btn');
-    
-    let allData = [];
+/**
+ * GalleryComponent - A production-grade gallery system
+ * Features: Accessibility, Loading states, Empty states, Edge cases, OO Design
+ */
+class GalleryApp {
+    constructor() {
+        this.gallery = document.getElementById('gallery');
+        this.filterBtns = document.querySelectorAll('.filter-btn');
+        this.modal = document.getElementById('modal');
+        this.closeBtn = document.getElementById('close-btn');
+        this.allData = [];
+        
+        // Exclude specific photos as requested
+        this.exclusionKeywords = [
+            'fellow_president', 
+            'rsvit_team', 
+            'with_my_team', 
+            'team_iconic',
+            'with_my_team'
+        ];
 
-    // Fetch Data
-    try {
-        const response = await fetch('data.json');
-        allData = await response.json();
-        renderGallery(allData);
-    } catch (err) {
-        console.error("Error loading data:", err);
+        this.init();
     }
 
-    // Filtering
-    filterBtns.forEach(btn => {
-        btn.addEventListener('click', () => {
-            filterBtns.forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            
-            const filter = btn.dataset.filter;
-            if(filter === 'all') {
-                renderGallery(allData);
-            } else {
-                const filtered = allData.filter(item => item.category === filter);
-                renderGallery(filtered);
+    async init() {
+        this.setupEventListeners();
+        await this.fetchData();
+    }
+
+    setupEventListeners() {
+        this.filterBtns.forEach(btn => {
+            btn.addEventListener('click', (e) => this.handleFilterClick(e));
+        });
+
+        this.closeBtn.addEventListener('click', () => this.closeModal());
+        
+        this.modal.addEventListener('click', (e) => {
+            if(e.target === this.modal) this.closeModal();
+        });
+        
+        document.addEventListener('keydown', (e) => {
+            if(e.key === 'Escape' && this.modal.classList.contains('active')) {
+                this.closeModal();
             }
         });
-    });
+    }
 
-    // Render Gallery
-    function renderGallery(items) {
-        gallery.innerHTML = '';
+    shouldExclude(filename) {
+        if (!filename) return false;
+        const lowerName = filename.toLowerCase();
+        return this.exclusionKeywords.some(keyword => lowerName.includes(keyword));
+    }
+
+    async fetchData() {
+        this.renderLoading();
+        try {
+            const response = await fetch('data.json');
+            if (!response.ok) throw new Error("Failed to fetch gallery data");
+            
+            const rawData = await response.json();
+            
+            // Filter out excluded photos based on the requirements
+            this.allData = rawData.filter(item => !this.shouldExclude(item.file));
+            
+            // Initial render
+            this.renderGallery(this.allData);
+        } catch (err) {
+            console.error("Gallery initialization failed:", err);
+            this.renderError();
+        }
+    }
+
+    handleFilterClick(e) {
+        const btn = e.target;
+        this.filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        
+        const filter = btn.dataset.filter;
+        if(filter === 'all') {
+            this.renderGallery(this.allData);
+        } else {
+            const filtered = this.allData.filter(item => item.category === filter);
+            this.renderGallery(filtered);
+        }
+    }
+
+    renderLoading() {
+        this.gallery.innerHTML = `
+            <div class="empty-state" role="status" aria-live="polite">
+                <div class="spinner"></div>
+                <p>Loading achievements...</p>
+            </div>
+        `;
+    }
+
+    renderError() {
+        this.gallery.innerHTML = `
+            <div class="empty-state" role="alert">
+                <p>⚠️ Failed to load gallery data. Please try again later.</p>
+            </div>
+        `;
+    }
+
+    renderEmpty() {
+        this.gallery.innerHTML = `
+            <div class="empty-state" role="status">
+                <p>No achievements found for this category yet.</p>
+            </div>
+        `;
+    }
+
+    renderGallery(items) {
+        this.gallery.innerHTML = '';
+        
+        if (!items || items.length === 0) {
+            this.renderEmpty();
+            return;
+        }
+
+        const fragment = document.createDocumentFragment();
+
         items.forEach((item, index) => {
-            const delay = (index % 10) * 0.05;
-            const card = document.createElement('div');
+            // Cap staggered animation delay to prevent overly long waits
+            const delay = Math.min(index * 0.05, 0.5); 
+            
+            const card = document.createElement('article');
             card.className = 'card';
             card.style.animationDelay = `${delay}s`;
+            card.tabIndex = 0;
+            card.setAttribute('role', 'button');
+            card.setAttribute('aria-label', `View details for ${item.title}`);
             
             let mediaHtml = '';
             if(item.type === 'video') {
-                mediaHtml = `<video class="card-media" src="${item.file}" muted loop onmouseover="this.play()" onmouseout="this.pause()"></video>`;
+                mediaHtml = `<video class="card-media" src="${item.file}" muted loop onmouseover="this.play()" onmouseout="this.pause()" aria-hidden="true"></video>`;
             } else {
                 mediaHtml = `<img class="card-media" src="${item.file}" alt="${item.title}" loading="lazy">`;
             }
@@ -58,36 +148,52 @@ document.addEventListener('DOMContentLoaded', async () => {
                 </div>
             `;
             
-            card.addEventListener('click', () => openModal(item));
-            gallery.appendChild(card);
+            // Mouse Interaction
+            card.addEventListener('click', () => this.openModal(item));
+            
+            // Keyboard Interaction
+            card.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    this.openModal(item);
+                }
+            });
+            
+            fragment.appendChild(card);
         });
+
+        this.gallery.appendChild(fragment);
     }
 
-    // Modal logic
-    function openModal(item) {
+    openModal(item) {
         document.getElementById('modal-title').textContent = item.title || 'Achievement';
         document.getElementById('modal-year').textContent = `Year: ${item.year}`;
         document.getElementById('modal-type').textContent = `Type: ${item.source}`;
         
         const container = document.getElementById('modal-media-container');
         if(item.type === 'video') {
-            container.innerHTML = `<video src="${item.file}" controls autoplay style="width:100%"></video>`;
+            container.innerHTML = `<video src="${item.file}" controls autoplay style="width:100%" aria-label="Video for ${item.title}"></video>`;
         } else {
             container.innerHTML = `<img src="${item.file}" alt="${item.title}" style="width:100%">`;
         }
         
-        modal.classList.add('active');
+        this.modal.classList.add('active');
+        this.modal.setAttribute('aria-hidden', 'false');
+        
+        // Trap focus or set focus to close button for accessibility
+        this.closeBtn.focus();
     }
 
-    closeBtn.addEventListener('click', () => {
-        modal.classList.remove('active');
-        document.getElementById('modal-media-container').innerHTML = ''; // stop video
-    });
+    closeModal() {
+        this.modal.classList.remove('active');
+        this.modal.setAttribute('aria-hidden', 'true');
+        
+        // Clear container to stop video playback
+        document.getElementById('modal-media-container').innerHTML = ''; 
+    }
+}
 
-    modal.addEventListener('click', (e) => {
-        if(e.target === modal) {
-            modal.classList.remove('active');
-            document.getElementById('modal-media-container').innerHTML = '';
-        }
-    });
+// Bootstrap application
+document.addEventListener('DOMContentLoaded', () => {
+    new GalleryApp();
 });
