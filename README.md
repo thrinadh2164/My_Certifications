@@ -139,9 +139,9 @@
 |:---:|:---:|
 | <img src="assets/leadership/2024_Sanchalana_Coordination_10_11-may-2024__Certification_Participation.jpg" width="400"/> | <img src="assets/academic/2024_Areas_Focus___30-dec-2024___Certification_Learning.png" width="400"/> |
 
-| SPARK — Rotaract Leadership Training (Graduation) |
-|:---:|
-| <img src="assets/leadership/2024_SPARK_-Rotaract_Leadership_Training_2024_Issuer_RI_Disrtict-3192_Certification_Completion.jpg" width="400"/> |
+| SPARK — Rotaract Leadership Training (Graduation) | Receiving SPARK Leadership Award |
+|:---:|:---:|
+| <img src="assets/leadership/2024_SPARK_-Rotaract_Leadership_Training_2024_Issuer_RI_Disrtict-3192_Certification_Completion.jpg" width="400"/> | <video src="assets/leadership/2024_Receiving_SPARK_Leadership_Award.mp4" width="400" controls></video> |
 
 </details>
 
